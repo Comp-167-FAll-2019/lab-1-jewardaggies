@@ -23,6 +23,17 @@ public class Contact {
     }
     
     public String toString(){
-        return firstName + " " + lastName  " " + phoneNumber + " " + emailAddress;
+        String fullContact = "";
+        fullContact = firstName + " " + lastName + " " + phoneNumber + " " 
+                + emailAddress;
+        return fullContact;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
     }
 }
